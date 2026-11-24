@@ -17,7 +17,7 @@
   - Wong Tin Kam: Server setup, database connection
 
 ## 3. Project file intro
-- `server.js`: 
+- `server.js`: It is responsible for starting the web server, connecting the application to MongoDB through Mongoose, configuring EJS and middleware, and integrating the login/logout, CRUD web pages and RESTful API routes.
 - `package.json`: 
 - `models/`: Contains Mongoose data models for MongoDB.
   - `User.js`: Defines user data structure including username and password.
